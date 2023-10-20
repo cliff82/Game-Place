@@ -13,12 +13,13 @@ function App() {
       <NavBar />
     </GridItem> 
     <Show above="lg">
-    <GridItem area='aside' >
-     <GameGrid />
-      </GridItem>
+      <GridItem area='aside' >
+        Aside
+        </GridItem>
       </Show>
+     
     <GridItem area='main' >
-      main
+    <GameGrid />
     </GridItem>
 </Grid>
 
